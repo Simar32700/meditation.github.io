@@ -1,0 +1,145 @@
+
+body{
+    padding: 0px;
+    margin: 0px;
+    background-image: url("background.jpg");
+    background-size: cover;
+}
+
+h1,h2 {
+    color:rgb(142, 13, 13);
+    }
+
+
+button{
+
+    color:rgb(20, 20, 230) ;
+}
+body{
+    background-color: rgb(201, 183, 158);
+}
+
+
+h5{
+    text-align : right ;
+}
+
+h1,h2{
+    text-align : center;
+}
+
+ #heading1{ 
+     font-weight: 900; 
+ }
+
+#onequote{
+    font-family: arial;
+    font-size: 30px;
+}
+#twoquote{
+    font-family: arial;
+    text-transform: uppercase;
+}
+#heading1{
+    font-size:120px;    
+}
+
+ #WHO { 
+    background-color: rgb(211, 162, 101);
+    border-style: dotted;
+    border-color: brown;
+    width: 90px;
+    height: 80px;
+    text-align: center;
+    border-radius: 50%;
+    padding-top:22px ;
+    padding-left:10px ;
+    padding-right: 10px;
+    
+    position:absolute;
+    right: 30px;
+    top: 40px;
+}
+
+#SIDEDIV {
+    background-color: rgb(127, 170, 197);
+    border-style: dashed;
+    width: 500px;
+    height: 200px;
+    text-align: left;
+    position: absolute;
+    right: 10px;
+
+
+
+
+
+
+}
+
+#fl{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+#navbar{
+
+    background-color: orange;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius:10px;
+    height: 60px;
+    top: 0;
+    position: sticky;
+    z-index: 10;
+
+
+}
+#nav_list{
+    display: flex;
+    list-style: none;
+    
+    
+}
+#nav_list li{
+     margin: 10px;
+     color: white;
+     /* background:black; */
+     width: 100px;
+     text-align: center;
+}
+
+#nav_list li:hover{
+    margin: 10px;
+    color: black;
+    cursor:pointer;
+    font-size: large;
+    
+    
+}
+ 
+
+#navbar img{
+    border-radius: 100px;
+    margin-left:10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
